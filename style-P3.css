@@ -1,0 +1,638 @@
+/* textP3 */
+
+a:link {
+		text-decoration:none;
+}
+
+.blocpage {
+	width: 70%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 550px;
+}
+
+.head{
+	text-align: center;
+	background-color: #579C87;
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #F2C84A;
+}
+
+.lne-lcalf{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-around;
+}
+
+#lne {
+	background-color: #FCDFDB;
+	border: #FFF;
+	-moz-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	-webkit-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	-o-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	box-shadow: 1px 1px 15px 1px #E7E7E7;
+	filter:progid:DXImageTransform.Microsoft.Shadow
+	(color=#E7E7E7, Direction=134, Strength=15);
+	text-align: center;
+	width: 12em;
+	height: 6em;
+	padding-top: 3em;
+	padding-bottom: 9em;
+}
+
+.icone{
+	color: #F16163;
+}
+
+.lne{
+	font-family: 'Lobster', cursive;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.menu1{
+	font-family: 'Comic Sans MS';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: black;
+}
+
+#lcalf{
+	background-color: #FFF5FE;
+	border: #FFF;
+	-moz-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	-webkit-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	-o-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	box-shadow: 1px 1px 15px 1px #E7E7E7;
+	filter:progid:DXImageTransform.Microsoft.Shadow
+	(color=#E7E7E7, Direction=134, Strength=15);
+	text-align: center;
+	width: 12em;
+	height: 6em;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}               
+
+.lcalf{
+	font-family: 'Lobster Two', cursive;
+	background:-webkit-linear-gradient(left, #D5884A, #744CD0 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #D5884A, #744CD0 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.menu2{
+	font-family: Constantia;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #D19000;
+
+}
+
+.lddp-lpdg {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-around;
+}
+
+#lddp {
+	background-color: #F9F9F9;
+	border: #FFF;
+	-moz-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	-webkit-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	-o-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	box-shadow: 1px 1px 15px 1px #E7E7E7;
+	filter:progid:DXImageTransform.Microsoft.Shadow
+	(color=#E7E7E7, Direction=134, Strength=15);
+	text-align: center;
+	width: 12em;
+	height: 6em;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.lddp {
+	font-family: 'Dancing Script', cursive;
+	background:-webkit-linear-gradient(left, #0300AD, #74ADDE 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #0300AD, #74ADDE 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.menu3 {
+	font-family: 'Comic Sans MS';
+	font-size: 1.2em;
+	font-style: italic;
+	color: #74ADDE;
+}
+
+#lpdg {
+	background-color: #FDFFFD;
+	border: #FFF;
+	-moz-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	-webkit-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	-o-box-shadow: 1px 1px 15px 1px #E7E7E7;
+	box-shadow: 1px 1px 15px 1px #E7E7E7;
+	filter:progid:DXImageTransform.Microsoft.Shadow
+	(color=#E7E7E7, Direction=134, Strength=15);
+	text-align: center;
+	width: 12em;
+	height: 6em;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.lpdg {
+	font-family: 'Kaushan Script', cursive;
+	background:-webkit-linear-gradient(left, #1C5100, #76B600 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #1C5100, #76B600 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+
+}
+
+.menu4 {
+	font-family: 'Comic Sans MS';
+	font-size: 1.2em;
+	font-style: italic;
+	color: #619E02;
+}
+
+.prochainement {
+	background-color: #579C87;
+	margin-top: 2em;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
+	width: 50%;
+	color: #FBCB46;
+	border-radius: 6px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+}
+
+.footer {
+	display: flex;
+	background-color: #579C87;
+	color: #FBCB46;
+	justify-content: space-between;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-top: 2em;
+	font-size: 1.5em;
+}
+
+/* La note enchantée B */
+
+#pagelneB {
+	width: 70%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 550px;
+	height: 800px;
+	background-color: #FCDFDB;
+	text-align: center;
+	display: flex;
+	flex-direction:  column;
+}
+
+.lneb{
+	font-family: 'Lobster', cursive;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.menu1b {
+	font-family: 'Comic Sans MS';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 3em;
+	color: black;
+}
+
+.iconeb {
+	color: #F16163;
+}
+
+/* Le chic à la française B */
+
+#pagelcalfb {
+	width: 70%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 550px;
+	height: 800px;
+	background-color: #FFF5FE;
+	text-align: center;
+	display: flex;
+	flex-direction:  column;
+}
+
+.lcalfb {
+	font-family: 'Lobster Two', cursive;
+	background:-webkit-linear-gradient(left, #D5884A, #744CD0 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #D5884A, #744CD0 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menu2b {
+	font-family: Constantia;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 3em;
+	color: #D19000;
+}
+
+/* Le délice des papilles B */
+
+#pagelddpb {
+	width: 70%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 550px;
+	height: 800px;
+	background-color: #F9F9F9;
+	text-align: center;
+	display: flex;
+	flex-direction:  column;
+}
+
+.lddpb {
+	font-family: 'Dancing Script', cursive;
+	background:-webkit-linear-gradient(left, #0300AD, #74ADDE 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #0300AD, #74ADDE 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    font-size: 3em;
+}
+
+.menu3b {
+	font-family: 'Comic Sans MS';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 3em;
+	color: #74ADDE;
+}
+
+/* La palette du goût B */
+
+#pagelpdgb {
+	width: 70%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 550px;
+	height: 800px;
+	background-color: #FDFFFD;
+	text-align: center;
+	display: flex;
+	flex-direction:  column;
+}
+
+.lpdgb {
+	font-family: 'Kaushan Script', cursive;
+	background:-webkit-linear-gradient(left, #1C5100, #76B600 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #1C5100, #76B600 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    font-size: 2.5em;
+}
+
+.menu4b {
+	font-family: 'Comic Sans MS';
+	font-size: 3em;
+	font-style: italic;
+	color: #619E02;
+}
+
+/* La note enchantée menu */
+
+#pagemenulne {
+	width: 80%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 620px;
+	height: 930px;
+	background-color: #FCDFDB;
+	text-align: center;
+	display: flex;
+	flex-direction:  column;
+	font-family: 'Lobster', cursive;
+}
+
+#headlnemenu {
+	height: 23%;
+	text-align: center;
+}
+
+.iconemenu { 
+	color: #F16163;
+	font-size: 0.9em;
+}
+
+.lnemenu {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.7em;
+	padding-top: 0.2em;
+}
+
+h2 {
+	text-align: center;
+}
+
+.menulne {
+	text-align: left;
+	font-style: italic;
+	font-size: 0.9em;
+	padding-left: 3em;
+}
+
+.prix {
+	text-align: right;
+	font-size: 0.9em;
+	padding-right: 3em;
+	font-weight: bold;
+}
+
+#prelude1, #prelude2, #prelude3, #prelude4 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+#orgue1, #orgue2, #orgue3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+.footerlne{
+	display: flex;
+	margin: auto;
+}
+
+.iconemenu2 {
+	color: #F16163;
+}
+
+.textfooter {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* Le chic à la française menu */
+
+.pagelcalfmenu {
+	width: 80%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 620px;
+	height: 900px;
+	background-color: #FFF5FE;
+	text-align: center;
+	display: flex;
+	flex-direction:  column;
+	font-family: 'Lobster Two', cursive;
+}
+
+#headlcalfmenu {
+	height: 10%;
+	padding-bottom: 1em;
+}
+
+.lcalfmenu {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Lobster Two', cursive;
+	background:-webkit-linear-gradient(left, #D5884A, #744CD0 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #D5884A, #744CD0 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+.menulcalf {
+	text-align: left;
+	font-size: 0.9em;
+	padding-left: 3em;
+}
+
+.prix {
+	text-align: right;
+	font-size: 0.9em;
+	padding-right: 3em;
+	font-weight: bold;
+}
+
+#appetit1, #appetit2, #appetit3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+#plaisir1, #plaisir2, #plaisir3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+.appetit {
+	color: #C67412;
+}
+
+.plaisir {
+	color: #A56799;
+}
+
+.gourmandise {
+	color: #6E4CCC;
+}
+
+/* Le délice des papilles menu */
+
+#pagelddpmenu {
+	width: 80%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 620px;
+	height: 900px;
+	background-color: #F9F9F9;
+	text-align: center;
+	display: flex;
+	flex-direction:  column;
+	font-family: 'Dancing Script', cursive; 
+}
+
+#headlcalfmenu {
+	height: 10%;
+	padding-bottom: 1em;
+}
+
+.lddpmenu {
+	font-family: 'Dancing Script', cursive;
+	background:-webkit-linear-gradient(left, #0300AD, #74ADDE 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #0300AD, #74ADDE 90%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.menulddp {
+	text-align: left;
+	font-size: 1.1em;
+	padding-left: 3em;
+}
+
+.prix {
+	text-align: right;
+	font-size: 0.9em;
+	padding-right: 3em;
+	font-weight: bold;
+}
+
+#commencer1, #commencer2, #commencer3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+#continuer1, #continuer2, #continuer3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+#terminer1, #terminer2, #terminer3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+/* La palette du goût menu */
+
+#pagelpdgmenu {
+	width: 80%;
+	border: 1px solid white;
+	 justify-content: center; 
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 620px;
+	height: 900px;
+	background-color: #FDFFFD;
+	text-align: center;
+	display: flex;
+	flex-direction:  column;
+	font-family: 'Kaushan Script', cursive;
+}
+
+#headlpdgfmenu {
+	height: 10%;
+	padding-bottom: 1em;
+}
+
+.lpdgmenu {
+	font-family: 'Kaushan Script', cursive;
+	background:-webkit-linear-gradient(left, #1C5100, #76B600 50%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    background:-webkit-linear-gradient(left, #1C5100, #76B600 50%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.menulpdg {
+	text-align: left;
+	font-size: 1.1em;
+	padding-left: 3em;
+}
+
+.prix {
+	text-align: right;
+	font-size: 0.9em;
+	padding-right: 3em;
+	font-weight: bold;
+}
+
+#esquisse1, #esquisse2, #esquisse3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+#oeuvre1, #oeuvre2, #oeuvre3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
+
+#sommet1, #sommet2, #sommet3 {
+	display: flex;
+	justify-content: space-between;
+	line-height: 0.5em;
+}
