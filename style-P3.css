@@ -14,6 +14,7 @@ a:link {
 }
 
 .head{
+	background-color: #4C8977;
 	text-align: center;
 	background-color: #579C87;
 	margin: auto;
@@ -44,6 +45,12 @@ a:link {
 	height: 6em;
 	padding-top: 3em;
 	padding-bottom: 9em;
+	transform: scale(1);
+    transition: transform 400ms;
+}
+
+#lne:hover {
+	transform: scale(1.15);
 }
 
 .icone{
@@ -78,7 +85,13 @@ a:link {
 	height: 6em;
 	padding-top: 6em;
 	padding-bottom: 6em;
+	transform: scale(1);
+    transition: transform 400ms;
 }               
+
+#lcalf:hover {
+	transform: scale(1.15);
+}
 
 .lcalf{
 	font-family: 'Lobster Two', cursive;
@@ -122,6 +135,12 @@ a:link {
 	height: 6em;
 	padding-top: 6em;
 	padding-bottom: 6em;
+	transform: scale(1);
+    transition: transform 400ms;
+}
+
+#lddp:hover {
+	transform: scale(1.15);
 }
 
 .lddp {
@@ -159,6 +178,12 @@ a:link {
 	height: 6em;
 	padding-top: 6em;
 	padding-bottom: 6em;
+	transform: scale(1);
+    transition: transform 400ms;
+}
+
+#lpdg:hover {
+	transform: scale(1.15);
 }
 
 .lpdg {
@@ -204,6 +229,32 @@ a:link {
 	padding-right: 0.5em;
 	margin-top: 2em;
 	font-size: 1.5em;
+	max-width: 550px;
+}
+
+.mention:hover, .contact:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 /* La note enchantée B */
